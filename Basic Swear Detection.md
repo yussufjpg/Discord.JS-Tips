@@ -6,7 +6,7 @@ const filter =  ['here','comes','the','bad','words'];
 if( filter.some(word => message.content.includes(word))  )  {
 	message.reply('A sweet notification comes here.');
 	message.member.addRole(`role id`).catch(console.error)//Gives a role to message author.
-	// Or just do message.delete(timeout);Deletes notification message after a little while.
+	message.delete(timeout);Deletes notification message after a little while.
 }
 ```
 
