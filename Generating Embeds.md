@@ -17,6 +17,6 @@ function  generateEmbed(title,desc,footerText,thumb){
 }
 ```
 Result you'll get from this code is going to be like something like this based on your improvements and changes:
-!(result is this)[https://hizliresim.com/81OBGo]
+![result is this](https://hizliresim.com/81OBGo)
 
 Of course you can make this way more sophisticated but this works just fine for me.
