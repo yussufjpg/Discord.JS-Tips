@@ -6,4 +6,4 @@ I'm hoping to give people some tips about bot making for Discord.
 * Basic Knowledge
 * Generating Embeds
 * Basic Swear Detection
-* Logging the Whole Server
+* Logging User Based Activities
