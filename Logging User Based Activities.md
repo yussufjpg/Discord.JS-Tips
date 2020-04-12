@@ -1,4 +1,4 @@
-# Logging the Whole Server
+# Logging User Based Activities
 
 Every event is being logged in a channel which is named as value of logChannel variable. 
 
@@ -63,3 +63,5 @@ client.on(`messageDelete`, message => {
 ```
 
 You can make this look much better with embeds, you can go to 'Generating Embeds' section if you want to make.
+
+p.s: You can log emotes but logging them is basically useless so i didn't add it.
