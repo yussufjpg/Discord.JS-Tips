@@ -64,4 +64,4 @@ client.on(`messageDelete`, message => {
 
 You can make this look much better with embeds, you can go to 'Generating Embeds' section if you want to make.
 
-p.s: You can log emotes but logging them is basically useless so i didn't add it.
+p.s. You can log emotes but logging them is basically useless so i didn't add it.
