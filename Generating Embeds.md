@@ -1,8 +1,11 @@
 # Embed Generation
+To generate embeds without long repeated codes we can make it a function and generate embeds as we like.
+
+**Making the Function**
 ```js
 // You need (title,desc,footerText,thumb) 
 // so that you can change embed as you need.
-function  generateEmbed(title,desc,footerText,thumb){ 
+function  generateEmbed(title,desc,footerText,thumb){ // You can also declare variable types to prevent some errors.
 	return {embed:{
 		color: 15844367, // Color of the straight line on the left
 		title:`${title}`, // Title of embed
