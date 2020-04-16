@@ -42,7 +42,7 @@ client.on('voiceStateUpdate', (oldState,newState) => {
 
 ```js
 client.on('message', message => {
-	message.guild.channels.find(channel => channel.name === logChannel).send(`message.author just sent a new message ${message.content} to #${message.channel.name} channel.`)
+	message.guild.channels.find(channel => channel.name === logChannel).send(`${message.author} just sent a new message ${message.content} to #${message.channel.name} channel.`)
 })
 ```
 
