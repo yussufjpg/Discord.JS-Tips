@@ -15,7 +15,7 @@ Just find the folder that matches your language and begin.
 - Türkçe
 
 # Changelog
-* Simple sytax mistakes fixed
+* Simple sytax mistakes fixed.
 * Turkish language support! (Türkçe dil desteği!)
-* README.md changes (old one is in english version)
-* New file system
+* README.md changes. (old one is in english version)
+* The new file layout.
