@@ -1,5 +1,5 @@
 # Embed Oluşturma
-Uzun ve tekrarlanan kodlardan kaçınmak ve istediğimiz şekilde embed oluşturmak için bunu bir fonksiyon haline getirmeliyiz.
+Uzun, tekrarlanan kodlardan kaçınmak ve istediğimiz şekilde embed oluşturmak için bunu bir fonksiyon haline getirmeliyiz.
 
 **Fonksiyonu Oluşturmak**
 ```js
