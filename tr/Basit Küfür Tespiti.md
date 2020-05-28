@@ -1,4 +1,4 @@
-# Basic Swear Detection
+# Basit Küfür Tespiti
 
 **İlk Yol**
 ```js
@@ -11,6 +11,7 @@ if( filter.some(word => message.content.includes(word))  )  {
 ```
 
 **İkinci Yol**
+
 İlk yöntem çalışmazsa bu yöntemi deneyebilirsiniz.
 ```js
 var q = 0
