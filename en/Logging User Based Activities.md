@@ -4,7 +4,7 @@ Every event is being logged in a channel which is named as value of logChannel v
 
 **Logging Voice Channel Activities**
 
-To log voice channel activites we need to make a function and run it every time we get a signal by using ('voiceStateUpdate')[https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-voiceStateUpdate] event.
+To log voice channel activites we need to make a function and run it every time we get a signal by using ['voiceStateUpdate'](https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-voiceStateUpdate) event.
 
 ```js
 //First we have to write a function to detect users voice activity.
@@ -43,7 +43,7 @@ client.on('voiceStateUpdate', (oldState,newState) => {
 
 **Logging New Messages**
 
-('message')[https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-message] Event works when a new message is sent.
+['message'](https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-message) Event works when a new message is sent.
 
 ```js
 client.on('message', message => {
@@ -53,7 +53,7 @@ client.on('message', message => {
 
 **Logging Message Updates**
 
-('messageUpdate')[https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-messageUpdate] Event works when a message is updated.
+['messageUpdate'](https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-messageUpdate) Event works when a message is updated.
 
 ```js
 client.on('messageUpdate', (oldMessage,newMessage) => {
@@ -63,8 +63,8 @@ client.on('messageUpdate', (oldMessage,newMessage) => {
 
 **Logging Deleted Messages**
 
-('mesageDelete') Event works when a message is deleted.
-[https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-messageDelete]
+['mesageDelete'] Event works when a message is deleted.
+(https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-messageDelete)
 ```js
 client.on(`messageDelete`, message => {
 	message.guild.channels.find(channel => channel.name === logChannel).send(`${message.author} deleted his ${message.content} message in ${message.channel.name}.`)
