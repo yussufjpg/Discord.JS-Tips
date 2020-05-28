@@ -38,6 +38,6 @@ message.channel.send(generateEmbed(title,description,footer,thumbnail))
 ```
 Yaptığınız değişikliklere ve iyileştirmelere bağlı olarak sonuç aşağı yukarı bu şekilde olacaktır:
 
-![sonuç!](https://i.hizliresim.com/OaYBGt.png)
+![sonuç!](https://camo.githubusercontent.com/4aaa3c9807dd8a9ba92551b125cc143ed8a3dc65/68747470733a2f2f692e68697a6c69726573696d2e636f6d2f4f61594247742e706e67)
 
 Tabiki de çok daha karmaşık yöntemler geliştirebilirsiniz ancak bu haliyle benim işimi oldukça iyi bir şekilde görüyor.
