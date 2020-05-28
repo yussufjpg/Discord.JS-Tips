@@ -9,9 +9,8 @@
 # Demek İstediğim Bir Şeyler
 Ben uzman falan değilim, bot yaparken baş ettiklerini iletmek isteyen biriyim, bu nedenle bazı hatalar olabilir mesela error veren kodlar, yazım hataları vb. 
 
----
-Bu gibi şeyler karşınıza çıkarsa Issue oluşturabilirsiniz. Eğer kendi katkılarınız varsa bunları da Pull Request olarak sunabilirsiniz 👍
----
+>Bu gibi şeyler karşınıza çıkarsa Issue oluşturabilirsiniz. Eğer kendi katkılarınız varsa bunları da Pull Request olarak sunabilirsiniz 👍
+
 # Desteklenen Diller
 - English
 - Türkçe
