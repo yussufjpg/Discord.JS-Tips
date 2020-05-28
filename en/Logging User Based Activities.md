@@ -63,8 +63,8 @@ client.on('messageUpdate', (oldMessage,newMessage) => {
 
 **Logging Deleted Messages**
 
-['mesageDelete'] Event works when a message is deleted.
-(https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-messageDelete)
+['mesageDelete'](https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-messageDelete) Event works when a message is deleted.
+
 ```js
 client.on(`messageDelete`, message => {
 	message.guild.channels.find(channel => channel.name === logChannel).send(`${message.author} deleted his ${message.content} message in ${message.channel.name}.`)
