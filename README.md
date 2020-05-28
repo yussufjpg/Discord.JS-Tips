@@ -14,8 +14,9 @@ Just find the folder that matches your language and begin.
 - English
 - Türkçe
 
-# Changelog
+# What's New
 * Simple syntax mistakes fixed.
 * Turkish language support! (Türkçe dil desteği!)
 * README.md changes. (old one is in english version)
 * The new file layout.
+* Page linking, documentation support for logging pages.
