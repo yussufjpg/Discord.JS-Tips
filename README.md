@@ -27,3 +27,4 @@ I'm not an expert, I'm just a 16 year-old kid who wants to share his experiences
 * README.md changes. (old one is in english version)
 * The new file layout.
 * Page linking, documentation support for logging pages.
+* GitBooks Support!
