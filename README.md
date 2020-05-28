@@ -10,7 +10,7 @@ I'm hoping to give people some tips about bot making for Discord.
 Just find the folder that matches your language and begin.
 
 # Getting The Most Out of This
-[Go to the GitBooks page that i made!](https://tinyurl.com/DiscordJSTipsGitBook)
+[Go to the GitBooks page that i made!](http://yussufjpg.github.io/DiscordJS-Tips)
 
 # Somethings That I Need to Say
 I'm not an expert, I'm just a 16 year-old kid who wants to share his experiences, so there might be errors, grammar issues(My native language is Turkish) or outdated things etc.
