@@ -11,6 +11,7 @@ if( filter.some(word => message.content.includes(word))  )  {
 ```
 
 **Second Way**
+
 You can try this way if the first way doesn't work.
 ```js
 var q = 0
