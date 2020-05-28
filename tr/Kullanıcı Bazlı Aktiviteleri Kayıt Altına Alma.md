@@ -3,6 +3,7 @@
 Kullanıcı bazlı bütün aktiviteler logChannel isimli değişkenin değerine eşdeğer kanala yollanıyor.
 
 **Sesli Kanal Aktivitelerini Tespit Etmek**
+Sesli kanal aktivitelerini tespit etmek için öncelikle bir fonksiyon yazıp ['voiceStateUpdate'](https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-voiceStateUpdate) eventinden gelen sinyallerle çalışırmalıyız.
 
 ```js
 //Ses aktivitelerini tespit edebilmek için bir fonksiyon yazmalıyız.
@@ -41,6 +42,8 @@ client.on('voiceStateUpdate', (oldState,newState) => {
 
 **Yeni Mesajları Kaydetmek**
 
+['message'](https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-message) eventi yeni mesaj yollandıkça çalışır.
+
 ```js
 client.on('message', message => {
 	message.guild.channels.find(channel => channel.name === logChannel).send(`${message.author} kullanıcısı  #${message.channel.name} kanalına ${message.content} şeklinde bir mesaj gönderdi.`)
@@ -48,6 +51,8 @@ client.on('message', message => {
 ```
 
 **Mesaj Güncellemelerini Kaydetmek**
+
+['messageUpdate'](https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-messageUpdate) eventi mesajlar güncellendikçe çalışır.
 
 ```js
 client.on('messageUpdate', (oldMessage,newMessage) => {
@@ -57,12 +62,14 @@ client.on('messageUpdate', (oldMessage,newMessage) => {
 
 **Silinen Mesajları Kaydetmek**
 
+['mesageDelete'](https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-messageDelete) eventi bir mesaj silinince çalışır.
+
 ```js
 client.on(`messageDelete`, message => {
 	message.guild.channels.find(channel => channel.name === logChannel).send(`${message.author} kullanıcısının ${message.channel.name} kanalındaki ${message.content} mesajı silindi.`)
 })
 ```
 
-Bu kayıtları embedler ile çok daha gösterişli yapabilirsiniz, bunun için 'Otomatik Embed Oluşturma' isimli bölüme gitmelisiniz.
+Bu kayıtları embedler ile çok daha gösterişli yapabilirsiniz, bunun için ['Otomatik Embed Oluşturma'](https://github.com/yussufjpg/DiscordJS-Tips/blob/master/tr/Otomatik%20Embed%20Olu%C5%9Fturma.md) isimli bölüme gitmelisiniz.
 
 dipnot: Mesaj tepkilerini de kayıt altına alabilirsiniz ancak bu pek de kayda değer olmadığı için eklemedim.
