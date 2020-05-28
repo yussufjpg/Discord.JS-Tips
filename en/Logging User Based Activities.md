@@ -3,6 +3,7 @@
 Every event is being logged in a channel which is named as value of logChannel variable. 
 
 **Logging Voice Channel Activities**
+
 To log voice channel activites we need to make a function and run it every time we get a signal.
 
 ```js
