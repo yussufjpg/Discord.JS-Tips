@@ -2,7 +2,8 @@
 
 Every event is being logged in a channel which is named as value of logChannel variable. 
 
-**Logging voice Channel Activities**
+**Logging Voice Channel Activities**
+To log voice channel activites we need to make a function and run it every time we get a signal.
 
 ```js
 //First we have to write a function to detect users voice activity.
@@ -32,6 +33,7 @@ function getUsersVoiceActivity(oldState,newState){
 	}
 }
 
+//Running the fucntion when we get a signal.
 client.on('voiceStateUpdate', (oldState,newState) => {
 	let user = client.users.get(newState.id)
 	newState.guild.channels.find(channel => channel.name === logChannel).send(`${user.username}#${user.discriminator} ${getUsersVoiceActivity(oldState,newState)}`)
