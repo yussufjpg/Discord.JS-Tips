@@ -15,7 +15,7 @@ I'm not an expert, I'm just a 16 year-old kid who wants to share his experiences
 >To prevent such situation, you can send an **Issue** and if you have a improvement you can send a **Pull Request**.
 
 # Supported Languages
-- English
+- [English](https://github.com/yussufjpg/DiscordJS-Tips/tree/master/en)
 - [Türkçe](https://github.com/yussufjpg/DiscordJS-Tips/tree/master/tr)
 
 # What's New
