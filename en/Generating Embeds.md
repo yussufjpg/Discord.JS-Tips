@@ -38,6 +38,6 @@ message.channel.send(generateEmbed(title,description,footer,thumbnail))
 ```
 Result you'll get from both of these codes are going to be something like this based on your improvements and changes:
 
-![result is this](https://i.hizliresim.com/81OBGo.png)
+![result is this](https://camo.githubusercontent.com/eecc3f660ee7c8f91f271ea1a356a8a3e3dd52fc/68747470733a2f2f692e68697a6c69726573696d2e636f6d2f38314f42476f2e706e67)
 
 Of course you can make this way more sophisticated but this works just fine for me.
