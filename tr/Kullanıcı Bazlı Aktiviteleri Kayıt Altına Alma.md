@@ -3,6 +3,7 @@
 Kullanıcı bazlı bütün aktiviteler logChannel isimli değişkenin değerine eşdeğer kanala yollanıyor.
 
 **Sesli Kanal Aktivitelerini Tespit Etmek**
+
 Sesli kanal aktivitelerini tespit etmek için öncelikle bir fonksiyon yazıp ['voiceStateUpdate'](https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-voiceStateUpdate) eventinden gelen sinyallerle çalışırmalıyız.
 
 ```js
