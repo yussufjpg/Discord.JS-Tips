@@ -1,4 +1,4 @@
-# Embed Generation
+# Generating Embeds
 To generate embeds without long repeated codes we can make it a function and generate embeds as we like.
 
 **Making the Function**
