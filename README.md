@@ -15,7 +15,7 @@ Just find the folder that matches your language and begin.
 # Somethings That I Need to Say
 I'm not an expert, I'm just a 16 year-old kid who wants to share his experiences, so there might be errors, grammar issues(My native language is Turkish), typos or outdated things etc.
 
->You can help me about this just by forking, fixing and sending as a pull request 👍
+>If you come across to somethings like this, you can create a **issue** and If you have your own improvements, you can send a **pull request** 👍
 
 # Supported Languages
 - [English](https://github.com/yussufjpg/DiscordJS-Tips/tree/master/en)
