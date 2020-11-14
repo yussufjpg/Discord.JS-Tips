@@ -34,7 +34,7 @@ function getUsersVoiceActivity(oldState,newState){
 	}
 }
 
-//Running the fucntion when we get a signal.
+//Running the function when we get a signal.
 client.on('voiceStateUpdate', (oldState,newState) => {
 	let user = client.users.get(newState.id)
 	newState.guild.channels.find(channel => channel.name === logChannel).send(`${user.username}#${user.discriminator} ${getUsersVoiceActivity(oldState,newState)}`)
